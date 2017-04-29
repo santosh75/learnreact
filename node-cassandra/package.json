@@ -1,0 +1,26 @@
+{
+  "name": "node-cassandra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.3.0",
+    "history": "^1.17.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^1.0.3"
+  },
+  "devDependencies": {
+    "cassandra-driver": "^3.2.1",
+    "express": "^4.15.2",
+    "helenus": "^0.6.10",
+    "jade": "*",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

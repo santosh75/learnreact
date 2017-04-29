@@ -7,18 +7,21 @@ import Machinecard from './Machinecard';
 import Archieves from './Comps/Archieves';
 import Featured from './Comps/Featured';
 import Settings from './Comps/Settings';
+import Signup from './learningComponents/ReactRedux/Signup';
+import Login from './learningComponents/ReactRedux/Loginpage';
  
 ReactDOM.render(
   <Router history={browserHistory}> 
     <Route path="/" component={Layout}>
     <IndexRoute component={Featured}></IndexRoute>
-    <Route path="featured" component={Featured}></Route>
+    <Route path="archieves" component={Archieves}></Route>
     <Route path="settings" component={Settings}></Route>
+    <Route path="signup" component={Signup}></Route>
+  <Route path="login" component={Login}></Route>
+  <Route path="machinecard" component={Machinecard}></Route>
+  
     </Route></Router>,
   document.getElementById('root')
 );
 
-ReactDOM.render(
-  <Machinecard />,
-  document.getElementById('root1')
-);
+
